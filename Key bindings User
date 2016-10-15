@@ -1,0 +1,18 @@
+[
+	{ "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
+
+	{ "keys": ["ctrl+i"], "command": "indent" },
+	{ "keys": ["ctrl+i","ctrl+i"], "command": "unindent" },
+
+	{ "keys": ["ctrl+."], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+	{ "keys": ["ctrl+alt+l"], "command": "split_selection_into_lines" },
+
+	{ "keys": ["super+shift+r"], "command": "reindent" },			
+
+	{ "keys": ["super+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["super+alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+]
